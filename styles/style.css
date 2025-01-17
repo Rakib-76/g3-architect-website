@@ -93,6 +93,53 @@
     width: 100%;
 }
 
+/* main first section related */
+
+
+.first{
+    margin-top: 130px;
+}
+
+.first-section-container{
+    gap: 73px;
+    align-items: center;
+   
+}
+
+.image-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr); 
+   gap: 20px;
+   margin-left: 166px;
+}
+img{
+    width: 100%;
+}
+/* 
+.text-containear ekhane margi dile image gulor moddhe ekta gao chole ase er jonno image container and text contaier er moddhe align item center problem solved */
+.text-container{
+    max-width: 537px;
+    /* margin: 232px 0; */
+    
+}
+
+.features-title{
+   font-weight: 700; 
+   font-size: 2.78rem;
+}
+
+.first-span{
+    font-weight: 500;
+}
+.second-span{
+    color: #FF900E;
+}
+
+.features-description{
+  font-weight: 400;
+  font-size: 1rem;  
+}
+
 
 
 
@@ -101,11 +148,18 @@
         flex-direction: column;
 
     }
+    .image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
     
 }
 @media screen and (min-width: 420.5px) and (max-width: 768px) {
     .display-flex{
         flex-direction: column;
     }
+    .image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
     
 }
