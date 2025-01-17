@@ -103,3 +103,9 @@
     }
     
 }
+@media screen and (min-width:420.5px) and (max-width: 768px) {
+    .display-flex{
+        flex-direction: column;
+    }
+    
+}
