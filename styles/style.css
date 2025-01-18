@@ -206,13 +206,17 @@ img{
     }
     .image-container{
         grid-template-columns: repeat(1, 1fr);
+      
     }
-    img{
-        width:100%;
-
+    
+    .team{
+        width: 820px;
     }
     .btn-secondary{
         margin: 0px;
+    }
+    .banner{
+        margin: 0;
     }  
     
     
@@ -224,10 +228,11 @@ img{
     }
     .image-container{
         grid-template-columns: repeat(1, 1fr);
+       
     }
     
-    img{
-        width: 100%;
+    .team{
+        width: 820px;
     } 
     .btn-secondary{
         margin: 0px;
