@@ -198,7 +198,7 @@ img{
 
 
 
-
+/* for mobile */
 @media screen and (max-width: 420px) {
     .display-flex{
         flex-direction: column;
@@ -207,9 +207,18 @@ img{
     .image-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    img{
+        width:100%;
+
+    }
+    .btn-secondary{
+        margin: 0px;
+    }  
+    
     
 }
-@media screen and (min-width: 420.5px) and (max-width: 768px) {
+/* for tablet */
+@media screen and (min-width: 420.5px) and (max-width: 821px) {
     .display-flex{
         flex-direction: column;
     }
@@ -217,6 +226,11 @@ img{
         grid-template-columns: repeat(1, 1fr);
     }
     
-    
+    img{
+        width: 100%;
+    } 
+    .btn-secondary{
+        margin: 0px;
+    }  
     
 }
